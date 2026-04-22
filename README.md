@@ -19,8 +19,18 @@ Qin = Kp*(href - h)
 - k = 0.5
 - dt = 0.1
 ## Exécution
-1. Ouvrir le fichier .vi avec LabVIEW
-2. Lancer le programme
-3. Observer le graphique
+1. Ouvrir le fichier principal du projet (fichier .vi) dans LabVIEW.
+2. Accéder au Front Panel pour visualiser l’interface utilisateur.
+3. Vérifier ou saisir les paramètres suivants :
+Gain proportionnel : Kp=2
+Consigne : href=5
+Coefficient de sortie : k=0.5
+Pas de temps : dt=0.1
+4. Cliquer sur le bouton Run (flèche blanche) pour lancer la simulation.
+5. Observer l’évolution du niveau du fluide :
+sur l’indicateur numérique
+sur le graphique (Waveform Chart)
+6. Arrêter la simulation en cliquant sur le bouton Stop.
+7. Modifier les paramètres si nécessaire pour analyser le comportement du système.
 ## Auteur
-TAFITANOMENJANAHARY Joseph
+TAFITANOMENJANAHARY Martin Joseph
